@@ -4,10 +4,24 @@
     transition: 3s;
 }
 .ex-1-square:hover{
+    cursor: pointer;
     background-color: red;
 }
+
 /* Esercizio 2 */
+
+.ex-2-square{
+    transition: 3s;
+}
+
+.ex-2-square:active{
+    cursor: pointer;
+    width: 1100px;
+}
+
 /* Esercizio 3 */
+
+
 /* Esercizio 4 */
 /* Esercizio 5 */
 /* Esercizio 6 */
