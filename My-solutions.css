@@ -67,10 +67,18 @@
 }
 
 .ex-7-img:hover{
-    filter: sepia(0.755);
-    opacity: (1);
+    filter: sepia(0.755) opacity(1);
 }
 /* Esercizio 8 */
+
+.ex-8-img{
+    transition: 2s;
+}
+
+.ex-8-img:hover{
+    border-radius: 25px;
+    filter: sepia(0.6) grayscale(0.4);
+}
 /* Esercizio 9 */
 /* Esercizio 10 */
 /* Esercizio 11 */
