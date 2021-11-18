@@ -62,7 +62,14 @@
 
 /* Esercizio 7 */
 
+.ex-7-img{
+    transition: 2s;
+}
 
+.ex-7-img:hover{
+    filter: sepia(0.755);
+    opacity: (1);
+}
 /* Esercizio 8 */
 /* Esercizio 9 */
 /* Esercizio 10 */
