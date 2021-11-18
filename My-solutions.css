@@ -99,9 +99,22 @@
 }
 
 @keyframes rotate {
-   0%{ transform: rotate(1turn); }
+   
+    0%{ transform: rotate(1turn); }
+
 }
 
 /* Esercizio 11 */
+
+.ex-11-icon:hover{
+    animation: halfrotate 2.5s linear;
+}
+
+@keyframes halfrotate {
+    
+    0%{ transform: rotate(0);}
+
+    80%{ transform: rotate(310deg);}
+}
 /* Esercizio 12 */
 /* Esercizio 13 */
