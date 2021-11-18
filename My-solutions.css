@@ -39,8 +39,24 @@
     cursor: pointer;
     opacity: 0;
 }
+
 /* Esercizio 5 */
+
+.ex-5-square{
+    transition: 2s;
+}
+
+.ex-5-square:hover{
+    transform: scale(2);
+}
+
+.ex-5-square:active{
+    transform: scale(0.5);
+}
+
 /* Esercizio 6 */
+
+.ex-6-img{}
 /* Esercizio 7 */
 /* Esercizio 8 */
 /* Esercizio 9 */
