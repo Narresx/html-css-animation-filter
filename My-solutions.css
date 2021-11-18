@@ -91,7 +91,17 @@
     filter:  grayscale(0.4) sepia(0.6);
     transform: scale(1.5);
 }
+
 /* Esercizio 10 */
+
+.ex-10-icon{
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+   0%{ transform: rotate(1turn); }
+}
+
 /* Esercizio 11 */
 /* Esercizio 12 */
 /* Esercizio 13 */
